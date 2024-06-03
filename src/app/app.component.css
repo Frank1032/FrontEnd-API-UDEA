@@ -1,0 +1,101 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5%;
+}
+
+.mat-form-field,
+button {
+  margin-top: 5%;
+  margin-left: 10%;
+  height: 200px;
+  width: 350px;
+}
+
+.main-container {
+  background-color: rgba(168, 11, 11, 0.1);
+  backdrop-filter: blur(5px);
+  margin-top: 10%;
+  margin-right: 20%;
+  margin-bottom: 50%;
+  margin-left: 20%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 10px;
+  color: rgb(75, 13, 219);
+  text-shadow: 2px 2px 5px #ffffff;
+}
+
+p {
+  margin: 20px;
+  color: rgb(238, 49, 197);
+  text-shadow: 2px 2px 5px #ffffff;
+}
+
+.spacer {
+  flex: 1;
+}
+
+.toolbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  background-color: #a813ad;
+  color: white;
+  font-weight: 600;
+}
+
+.toolbar img {
+  margin: 0 16px;
+}
+
+.toolbar #twitter-logo {
+  height: 40px;
+  margin: 0 8px;
+}
+
+.toolbar #youtube-logo {
+  height: 40px;
+  margin: 0 16px;
+}
+
+.toolbar #twitter-logo:hover,
+.toolbar #youtube-logo:hover {
+  opacity: 0.8;
+}
+
+.content {
+  display: flex;
+  margin: 82px auto 32px;
+  padding: 0 16px;
+  max-width: 960px;
+  flex-direction: column;
+  align-items: center;
+}
+
+svg.material-icons {
+  height: 24px;
+  width: auto;
+}
+
+svg.material-icons:not(:last-child) {
+  margin-right: 8px;
+}
+
+.centrar{
+  text-align: center; /* Centrar horizontalmente */
+  display: flex; /* Utilizamos flexbox para centrar verticalmente */
+  justify-content: center; /* Centrar horizontalmente con flexbox */
+  width: 100%; /* Ancho completo */ 
+}

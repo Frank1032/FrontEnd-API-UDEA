@@ -1,0 +1,20 @@
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+@import "../node_modules/@swimlane/ngx-datatable/themes/material.css";
+@import "../node_modules/@swimlane/ngx-datatable/themes/dark.css";
+@import "../node_modules/@swimlane/ngx-datatable/themes/bootstrap.css";
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-image: url("/assets/images/main2.png");
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.color-morado {
+  background-color: rgb(126, 9, 126);
+  color: white;
+}

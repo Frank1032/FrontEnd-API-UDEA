@@ -1,0 +1,17 @@
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 10px; 
+}
+
+.mat-form-field,
+button {
+  margin-left: 10px; 
+}
+
+.datatable-container {
+  width: 99%; 
+  margin-bottom: 10%;
+}

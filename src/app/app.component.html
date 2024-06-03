@@ -1,0 +1,36 @@
+<!-- Toolbar -->
+<div class="toolbar" role="banner">
+  <img  width="40" height="40" alt="main" src="../assets/images/main3.png" />
+  <span class="centrar">Dias Festivos Frank</span>
+</div>
+
+<!-- Botones principales -->
+<div class="main-container">
+  <div class="content">
+    <div class="container">
+      <button
+        mat-raised-button
+        [color]="buttonColor"
+        (click)="mostrarConsultarFestivo()"
+      >
+        <span>Consultar Si Es Festivo</span>
+        <mat-icon>check_circle</mat-icon>
+      </button>
+
+      <button
+        mat-raised-button
+        [color]="buttonColor2"
+        (click)="mostrarListarFestivo()"
+      >
+        <span>Buscar Festivos De Un Año</span>
+        <mat-icon>calendar_today</mat-icon>
+      </button>
+    </div>
+
+
+    <!-- Trae los componentes asociados a la acción de los botones -->
+    <app-consultar-festivo *ngIf="mostrarConsultarFecha"></app-consultar-festivo>
+
+    <app-listar-festivo *ngIf="mostrarListarFechas"> </app-listar-festivo>
+  </div>
+</div>
